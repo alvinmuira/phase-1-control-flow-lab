@@ -7,9 +7,9 @@ function scuberGreetingForFeet(){
   } else if (feet <= 2000) {
     scuberGreetingForFeet = 'That will be twenty bucks.';
   } else if (feet>2500) {
-    scberGreetingForFeet ='No can do.';
+    scuberGreetingForFeet ='No can do.';
   } else {
-    console.log ('I will gladly take your thirty bucks.');
+    scuberGreetingForFeet ='I will gladly take your thirty bucks.';
   }
 }
 
@@ -20,7 +20,7 @@ function ternaryCheckCity(){
   if (city === 'NYC') {
     ternaryCheckCity = 'Ok, sounds good.';
   } else {
-    console.log('No go.');
+    ternaryCheckCity ='No go.';
   }
 }
 
@@ -36,3 +36,6 @@ function switchOnCharmFromTip(){
     switchOnCharmFromTip = 'Bye.';
   }
 }
+console.log(scuberGreetingForFeet);
+console.log(ternaryCheckCity);
+console.log(switchOnCharmFromTip);
